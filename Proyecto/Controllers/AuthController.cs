@@ -7,7 +7,7 @@ using Proyecto.Services.Interfaces;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Proyecto1.Controllers
+namespace Proyecto.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
