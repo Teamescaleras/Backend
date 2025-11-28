@@ -9,5 +9,6 @@ public class RoomSummaryDto
     public string Status { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; }
     public List<string> PlayerNames { get; set; } = new();
+    public int? GameId { get; set; }
 }
 }

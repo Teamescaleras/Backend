@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Proyecto1.DTOs.Lobby;
-using Proyecto1.Services; 
+using Proyecto.DTOs.Lobby;
+using Proyecto.Services; 
 using System.Security.Claims;
-using Proyecto1.Services.Interfaces;
+using Proyecto.Services.Interfaces;
 
-namespace Proyecto1.Controllers
+namespace Proyecto.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
